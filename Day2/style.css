@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+}
+
+/* Name colors  */
+#p1 {
+  color: green;
+}
+
+/* Rgb colors  */
+#p2{
+  color: rgb(102, 222, 255);
+}
+
+/* Hexadecimal colors  */
+#p3 {
+  color: #f2f2f2;
+}
+
+/* hsl colors */
+#p4 {
+  color: hsl(33, 66%, 57%);
+}

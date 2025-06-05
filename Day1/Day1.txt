@@ -15,4 +15,4 @@
 Note!
   - id attribute are prioritize over class
 
-  Example:
+  
