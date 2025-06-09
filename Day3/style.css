@@ -1,0 +1,19 @@
+@font-face {
+  font-family: Roboto-Light;
+  src: url(font/Roboto-Light.ttf);
+}
+
+h1 {
+  font-family: Roboto-Light;
+  font-size: 50px;
+  font-weight: bold;
+}
+@font-face {
+  font-family: ComicNeue-Italic;
+  src: url(font/ComicNeue-Italic.ttf);
+}
+p {
+  font-family: ComicNeue-Italic;
+  font-size: 20px;
+  font-weight: normal;
+}

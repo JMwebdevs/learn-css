@@ -4,12 +4,9 @@ body {
 h1 {
   color: white;
 }
+.even{
+  color: darkgreen;
+}
 .odd {
-  color: red;
-}
-.even {
-  color: blue;
-}
-#p3 {
-  color: green;
+  color: rgb(113, 174, 113);
 }
