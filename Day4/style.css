@@ -1,0 +1,27 @@
+h1 {
+  /* border: solid; */
+  /* border: dotted; */
+  /* border: double; */
+  /* border: dashed; */
+  /* border: groove; */
+  /* border: inset; */
+  /* border: outset; */
+  /* border: ridge; */
+  border: 1px groove green;
+  border-radius: 20px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 40px;
+}
+
+p {
+  border-top: 3px solid darkgreen;
+  border-left: 3px solid olive;
+  border-bottom: 3px solid olivedrab;
+  border-right: 3px solid green;
+  padding: 20px 30px;
+  background-color: rgba(131, 221, 131, 0.666);
+  border-radius: 20px;
+  text-align: center;
+  font-family: monospace;
+}
