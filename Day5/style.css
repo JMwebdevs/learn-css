@@ -1,0 +1,14 @@
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} */
+h1{
+  text-shadow: 4px 3px 5px gray;
+}
+#box-shadow {
+  width: 200px;
+  height: 200px;
+  box-shadow: -6px -7px 15px black;
+  margin-left: 20px;
+}
