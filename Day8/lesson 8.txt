@@ -1,0 +1,28 @@
+                    
+
+
+
+                    Day - 8 | CSS Display Property
+ Properties:  
+    1. Display: block;
+                    - Takes up 100% of the width of its container by default.
+                    - Starts on a new line.
+                                        Example:
+                                                - <div>
+                                                - <p> 
+                                                - <h1> 
+                                                - <section>
+
+    2. Display: inline; 
+                    - Only takes up as much width as needed.
+                    - Stays on the same line with other inline elements.
+                    - You cannot set width or height.
+                                        Example:
+                                                - <span>
+                                                - <a>
+                                                - <strong>
+    3. Display: inline-block;
+                    - Behaves like inline (sits on the same line).
+                    - But also behaves like block (you can set width and height).
+                    - Perfect for buttons or elements you want side-by-side but still have box-like control.
+                     
