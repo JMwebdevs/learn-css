@@ -1,0 +1,11 @@
+html,body{
+  height: 100%;
+  min-height: 100vh
+}
+
+body{
+  background-image: url(img/Chapter_201_cover.PNG.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

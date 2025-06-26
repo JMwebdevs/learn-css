@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  background-color: gray;
+  min-height: 100vh;
+}
+header{
+  text-align: center;
+  padding: 20px 0px;
+  background-color: transparent;
+  color: darkgray;
+  position: sticky;
+  top: 0px;
+  width: 100%;
+  border: 1px solid;
+}
+main{
+  border: 2px solid red;
+}
+#box1{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  position: relative;
+  /* top: 100px; */
+}
+footer{
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0px;
+  background-color: green;
+}

@@ -1,19 +1,19 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   font-family: sans-serif;
-  height: 100%; 
+  height: 100%;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
-.main-header{
+.main-header {
   position: sticky;
   /* border: 1px solid; */
   display: flex;
@@ -22,88 +22,100 @@ body{
   gap: 20rem;
   background-color: white;
 }
-.nav-bar{
+.nav-bar {
   display: flex;
   /* gap: 2rem; */
 }
-.nav-bar a{
+.nav-bar a {
   text-decoration: none;
   color: black;
   /* border: 1px solid; */
   padding: 5px 10px;
 }
-.icons{
+.icons {
   display: flex;
   gap: 20px;
 }
-a:link{
+a:link {
   color: black;
 }
-a:visited{
+a:visited {
   color: black;
 }
-.nav-bar a:hover{
+.nav-bar a:hover {
   color: green;
   border-top: 4px solid darkgreen;
   transition: 0.1s;
+  font-size: 18px;
 }
-a:active{
+a:active {
   font-weight: bold;
 }
-main{
+main {
   flex: 1;
   background-color: gray;
   display: flex;
   flex-direction: column;
 }
-article{
+article {
   flex: 3;
   border: 1px solid;
   display: flex;
   padding: 1rem 9rem;
 }
-.section-wrapper{
+.section-wrapper {
   display: flex;
   flex: 1;
-  box-shadow: 5px 5px 15px black;
-
+  box-shadow: 5px 5px 10px black;
+  padding: 10px;
+  border: none;
+  background-color: white;
+  border-radius: 20px;
 }
-.left-content{
+.left-content {
   flex: 1;
   flex-direction: row;
   background-color: white;
-  
 }
-.section-content{
+.section-content {
   display: flex;
-  flex-direction: column  ;
+  flex-direction: column;
   gap: 10px;
   padding-right: 10px;
   position: relative;
   padding: 10px;
 }
-.section-content h1{
+.section-content h1 {
   font-size: 60px;
 }
-.section-content p{
+.section-content p {
   font-size: 18px;
 }
 
-
-.right-content{
+.right-content {
   flex: 2;
   background-image: url(img/main/Chapter_201_cover.PNG.webp);
   background-size: cover;
   background-repeat: no-repeat;
+  border: none;
+  border-radius: 20px;
 }
-footer{
+footer {
   flex: 1;
   background-color: black;
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 13px;
   gap: 5rem;
   padding: 0rem 9rem;
   text-align: left;
+}
+
+ion-icon:hover {
+  color: green;
+  transition: 0.3s;
+  padding: 5px 0px;
+  border-bottom: 3px solid green;
 }
