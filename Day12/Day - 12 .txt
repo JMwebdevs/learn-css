@@ -1,0 +1,8 @@
+                
+                Day - 12 | CSS Combinators
+
+Combinators = explains the relationship between listed selectors 
+  1.   = descendant - empty space
+  2. > = child
+  3. ~ = general sibling
+  4. + = adjacent sibling
